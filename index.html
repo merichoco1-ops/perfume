@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VELORA Luxury Perfumes — Discover your signature scent.">
+  <title>VELORA | The Art of Fragrance</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announcement">
+    <span>✦</span> DISCOVER THE ART OF LUXURY — COMPLIMENTARY SHIPPING ON ORDERS OVER $100 <span>✦</span>
+  </div>
+
+  <header class="navbar">
+    <a href="#" class="logo">VELORA<span>.</span></a>
+
+    <nav id="navLinks">
+      <a href="#home">HOME</a>
+      <a href="#collection">COLLECTION</a>
+      <a href="#story">OUR STORY</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">THE ESSENCE OF ELEGANCE</p>
+        <h1>Leave a <em>Little</em><br> Mystery Behind.</h1>
+        <p class="hero-description">
+          More than a fragrance. An unforgettable impression.
+          Discover scents crafted for those who dare to be different.
+        </p>
+
+        <a href="#collection" class="primary-btn">
+          DISCOVER YOUR SCENT <span>↗</span>
+        </a>
+
+        <div class="hero-caption">
+          <span class="caption-line"></span>
+          <span>EXTRAORDINARY BY NATURE</span>
+        </div>
+      </div>
+
+      <div class="hero-side-text">EAU DE PARFUM · EST. 2026</div>
+      <div class="hero-number">01 / 03</div>
+    </section>
+
+    <section class="intro section-padding" id="story">
+      <p class="eyebrow">A WORLD OF ITS OWN</p>
+      <h2>Some things are felt.<br><em>Not seen.</em></h2>
+      <p class="intro-text">
+        At VELORA, every fragrance tells a story. Inspired by timeless elegance
+        and created for modern souls, our scents turn everyday moments into
+        lasting memories.
+      </p>
+      <div class="gold-line"></div>
+    </section>
+
+    <section class="collection section-padding" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE VELORA EDIT</p>
+          <h2>Our <em>Fragrance</em> Collection</h2>
+        </div>
+        <p class="collection-note">Three signatures. Endless impressions.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image">
+            <span class="product-tag">BESTSELLER</span>
+            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85" alt="Luxury perfume bottle">
+          </div>
+          <div class="product-info">
+            <p class="product-type">WARM · AMBER · WOODY</p>
+            <h3>NOIR ÉLIXIR</h3>
+            <p class="product-description">A bold and captivating signature for unforgettable evenings.</p>
+            <div class="product-bottom">
+              <span>$89</span>
+              <button class="details-btn" data-product="Noir Élixir">DISCOVER ↗</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <span class="product-tag">SIGNATURE</span>
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=85" alt="Elegant fragrance bottle">
+          </div>
+          <div class="product-info">
+            <p class="product-type">FLORAL · ROSE · MUSK</p>
+            <h3>ROSE VEIL</h3>
+            <p class="product-description">A delicate floral embrace with a beautifully lasting finish.</p>
+            <div class="product-bottom">
+              <span>$95</span>
+              <button class="details-btn" data-product="Rose Veil">DISCOVER ↗</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <span class="product-tag">NEW ARRIVAL</span>
+            <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85" alt="Premium perfume">
+          </div>
+          <div class="product-info">
+            <p class="product-type">FRESH · CITRUS · MUSK</p>
+            <h3>GOLDEN HOUR</h3>
+            <p class="product-description">Fresh, radiant and effortlessly refined from day to night.</p>
+            <div class="product-bottom">
+              <span>$79</span>
+              <button class="details-btn" data-product="Golden Hour">DISCOVER ↗</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-content">
+        <p class="eyebrow">THE VELORA PHILOSOPHY</p>
+        <h2>"Your fragrance<br>is your <em>silent signature.</em>"</h2>
+        <p>Make every entrance memorable.</p>
+      </div>
+    </section>
+
+    <section class="newsletter section-padding" id="contact">
+      <p class="eyebrow">A NOTE FROM VELORA</p>
+      <h2>Stay in the <em>know.</em></h2>
+      <p>Discover new arrivals, fragrance stories and exclusive updates.</p>
+
+      <form id="newsletterForm">
+        <input type="email" id="emailInput" placeholder="Enter your email address" required>
+        <button type="submit">SUBSCRIBE ↗</button>
+      </form>
+      <p class="form-message" id="formMessage" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo">VELORA<span>.</span></a>
+    <p>THE ART OF LEAVING AN IMPRESSION.</p>
+    <span>© 2026 VELORA. DEMO BRAND.</span>
+  </footer>
+
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <p class="eyebrow">THE VELORA EXPERIENCE</p>
+      <h2 id="modalTitle">NOIR ÉLIXIR</h2>
+      <p id="modalDescription">Discover a fragrance made to leave an impression.</p>
+      <button class="primary-btn" id="modalDone">CONTINUE EXPLORING ↗</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
